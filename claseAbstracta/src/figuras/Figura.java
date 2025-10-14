@@ -12,4 +12,12 @@ public abstract class Figura {
 
     private String color;
     
+    //Metodos abstractos
+    abstract void dibujar();
+    
+    //Metodo no abstracto
+    void establecerColor(String color){
+        System.out.println("color: " + color);
+    }
+    
 }
