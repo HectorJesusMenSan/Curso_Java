@@ -29,8 +29,23 @@ public class Curso {
         }
         //Implementamos metodos de acceso
         //Metodos con funcionalidad
+        public void mostrarDatos(){
+            System.out.println("nombre: "+nombre);
+
+        }
+       
         
         
+    }
+    
+    public void mostrarIformacion(){
+        System.out.println("Curso: "+nombre);
+        System.out.println("profesor: "+profesor);
+        System.out.println("Estudiantes");
+        for(Estudiante e: listaEstudiante){
+            e.mostrarDatos();
+        }
+
     }
     
     
