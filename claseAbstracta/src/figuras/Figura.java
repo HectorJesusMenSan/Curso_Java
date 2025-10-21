@@ -12,4 +12,21 @@ public abstract class Figura {
 
     private String color;
     
+<<<<<<< Updated upstream
+=======
+    //Constructores
+    public Figura (){
+    }
+    public Figura(String color){
+        this.color = color;
+    }
+    
+    //Metodos abstractos
+    abstract void dibujar();
+    
+    //Metodo no abstracto
+    void establecerColor(String color){
+        System.out.println("color: " + color);
+    }
+>>>>>>> Stashed changes
 }
