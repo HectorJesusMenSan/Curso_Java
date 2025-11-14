@@ -8,6 +8,10 @@ package Excepciones;
  *
  * @author sc03m14
  */
-public class ExeptionInvalid {
+public class ExeptionInvalid extends Exception {
+    public ExeptionInvalid(String mensaje){
+        super(mensaje);
+        
+    }
     
 }

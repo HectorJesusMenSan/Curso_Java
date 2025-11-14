@@ -10,4 +10,17 @@ package Excepciones;
  */
 public class Usuario {
     
+    public static void validarEdad(int edad) throws ExeptionInvalid{
+        if (edad<0){
+            throw new ExepionInvalid("La edad no puede ser negativa");
+        }
+        else if(edad < 18){
+            throw new ExeptionInvalid("La edad debe ser mayor a 18")
+        }
+        else{
+            System.out.println("Edad valida "+ edad);
+        }
+        
+    }
+    
 }
