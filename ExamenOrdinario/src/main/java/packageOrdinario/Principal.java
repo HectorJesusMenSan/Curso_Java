@@ -38,12 +38,17 @@ public class Principal {
                 op = -1;
             }
             sc.nextLine(); 
-            
+            Funciones funcion= new Funciones();
             switch(op){
                 case 1:
-                    Funciones funcion= new Funciones();
+                    
                     funcion.menuGestionProfesor();
-                    break;       
+                    break;
+                case 2:
+                    funcion.menuGestionAlumno();
+                    break;
+                //AQUI VA EL TERCER CASO
+                    
             }
             
         }
