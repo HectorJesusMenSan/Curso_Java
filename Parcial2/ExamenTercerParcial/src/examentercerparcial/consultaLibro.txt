@@ -1,0 +1,4 @@
+1; 12345; betisimo; juanisimo; 1234
+2; 978-02; HECTORRRR; HECTORRRR; 123123
+3; 978-03; El resplandor; Stephen King; 1977
+4; 123123; asdasdasd; ergwrger; afdsasdfasdf
